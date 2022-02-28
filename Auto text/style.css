@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: rgb(39, 218, 114);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0%;
+  overflow: hidden;
+}
+
+div {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(204, 19, 19, 0.1);
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: rgb(247, 3, 3);
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+
